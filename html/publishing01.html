@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>SUNHEE | 백년손님서서갈비</title>
+        <link rel="stylesheet" href="../css/publishing.css" type="text/css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="publi_maindesign" class="publi01">
+            <div class="maindesign_title">
+                <h3>백년손님서서갈비</h3>
+                <p>
+                    <b>[ MAIN DESIGN ]</b>
+                    체인점 및 가맹점에 특화된 홈페이지 디자인을 구현하여<br>
+                    브랜드 홍보 및 소개 등 방문 고객에게 창업을 유도 하도록 취지에 맞게 작업되었습니다.
+                    <span>(+ 창업문의 글 작성 게시판, 가맹점 매장안내 서비스 작업)</span>
+                </p>
+                <div id="publi_btn">
+                    <a class="publi_btn_red" onclick="history.back()" href="#none" target="_self">HOME</a>
+                    <a class="publi_btn_blue" href="http://xn--w39a72hw8ap0t7rc03fa93g.kr/" target="_blank">WEB SITE</a>
+                </div>
+                
+                
+            </div>
+            <div class="maindesign_img">
+                <img src="../img/publishing/01-1.jpg">
+            </div>
+
+            <!--퀵버튼-->
+            <div id="icon_button">
+                <a onclick="history.back()" href="#none" target="_self" id="icon_btn" class="icon_btn01"><i class="fa-solid fa-house"></i></a>
+                <a href="http://xn--w39a72hw8ap0t7rc03fa93g.kr/" target="_blank" id="icon_btn" class="icon_btn02"><i class="fa-solid fa-earth-asia"></i></a>
+            </div>
+            <button type="button" id="top_btn" class="icon_btn03">
+                <i class="fa fa-arrow-up" aria-hidden="true"></i>
+            </button>
+            <script>
+                $(function() {
+                    $("#top_btn").on("click", function() {
+                        $("html, body").animate({scrollTop:0}, '500');
+                        return false;
+                    });
+                });
+            </script>
+        </div>
+        
+        
+    </body>
+</html>

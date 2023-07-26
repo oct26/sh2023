@@ -1,0 +1,123 @@
+*{margin:0; padding:0;}
+li { list-style:none; }
+address,em,i { font-style:normal; }
+a { text-decoration: none; color:#333; vertical-align:middle; }
+button { margin:0; padding:0; vertical-align:middle; }
+html { overflow-x: hidden;}
+body { width:100%; }
+
+
+#publi_maindesign { position:relative; margin:0 auto; width:100%; }
+.maindesign_title { text-align:center; width:100%; padding:50px 0;  } 
+.maindesign_title h3 { font-size:40px; font-weight:800; color:#fff; /*text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;*/ } 
+.maindesign_title h3:after { display:block; content:""; width:50px; height:1px; background:#fff; margin:30px auto; }
+.maindesign_title p { font-size:16px; word-break : keep-all; }
+.maindesign_title p b { font-size:18px; display:block; margin-bottom:15px; }
+.maindesign_title p span { display:block; word-break : keep-all;  }
+.maindesign_title a { display:inline-block; width:150px; height:45px; line-height:45px; border-radius:50px; border:1px solid #fff; margin-top:50px; }
+.maindesign_img { padding:100px; }
+.maindesign_img img { width:100%; }
+
+@media screen and (max-width: 960px) {
+    .maindesign_title { }
+    .maindesign_title h3 { font-size:30px; }
+    .maindesign_title p { padding:0 30px; }
+    .maindesign_img { padding:30px; }
+}
+
+/*버튼호버 레드*/
+#publi_btn .publi_btn_red { display:inline-block; border-radius:50px; border:1px solid #fff;font-size:15px; margin-right:10px; transition:all 0.5s; 
+    background: linear-gradient(
+    -45deg,
+    rgba(255,255,255,0) 0 calc(50% - 10px),
+    #F5F5F5 calc(50% - 10px) calc(50% + 10px),
+    #E3114E calc(50% + 10px) 100%
+    );
+    background-size: 250% 100%;
+    background-position: 100% 50%;}
+#publi_btn a.publi_btn_red:hover{
+    color: #ffff;
+    border:1px solid #E3114E;
+    background-position: 0% 50%;
+}
+
+/*버튼호버 블루*/
+#publi_btn .publi_btn_blue { display:inline-block; border-radius:50px; border:1px solid #fff;font-size:15px; margin-right:10px; transition:all 0.5s; 
+    background: linear-gradient(
+    -45deg,
+    rgba(255,255,255,0) 0 calc(50% - 10px),
+    #F5F5F5 calc(50% - 10px) calc(50% + 10px),
+    #115ae3 calc(50% + 10px) 100%
+    );
+    background-size: 250% 100%;
+    background-position: 100% 50%;}
+#publi_btn a.publi_btn_blue:hover{
+    color: #ffff;
+    border:1px solid #115ae3; 
+    background-position: 0% 50%;
+}
+
+#top_btn { background:#ccc; position:fixed;  width:60px; height:60px; line-height:60px; border-radius:50px; border:1px solid #ccc; color:#fff; }
+#top_btn:hover { cursor: pointer; background:#FFC200; color:#111; border:none; }
+#top_btn i { font-size:20px; }
+
+#icon_btn { position:fixed;  width:60px; height:60px; line-height:60px; border-radius:50px; color:#fff; text-align:center; }
+#icon_btn i { line-height:60px; font-size:20px; }
+.icon_btn01 { right:20px; bottom:180px; border:1px solid #ccc;  background:#ccc;  }
+.icon_btn01:hover { background:#E3114E; border:1px solid #E3114E; }
+.icon_btn02 { right:20px; bottom:100px; border:1px solid #ccc;  background:#ccc;  }
+.icon_btn02:hover { background:#115ae3;border:1px solid #115ae3; }
+.icon_btn03 { right:20px; bottom:20px; }
+
+@media screen and (max-width: 960px) {
+    #top_btn { width:50px; height:50px; line-height:50px; }
+    #top_btn i { font-size:15px; }
+    #icon_btn { width:50px; height:50px; line-height:50px; }
+    #icon_btn i { font-size:15px; line-height:50px; }
+
+    .icon_btn01 { bottom:140px; }
+    .icon_btn02 { bottom:80px; }
+    .icon_btn03 {  }
+}
+
+/*01 백년손님서서갈비*/
+.publi01 { background:#212121; }
+.publi01 h3 { }
+.publi01 p { color:#fff; }
+.publi01 span { color:#aaa; display:block; padding:20px 0; }
+.publi01 a { color:#fff; }
+
+/*02 우와도어*/
+.publi02 { background:#202D39; }
+.publi02 h3 { }
+.publi02 p { color:#fff; }
+.publi02 span { color:#aaa; display:block; padding:20px 0; }
+.publi02 a { color:#fff; }
+
+/*03 토탈기획*/
+.publi03 { background:#292E01; }
+.publi03 h3 { }
+.publi03 p { color:#fff; }
+.publi03 span { color:#aaa; display:block; padding:20px 0; }
+.publi03 a { color:#fff; }
+
+/*04 한국나눔사랑봉사연맹*/
+.publi04 { background:#09373C; }
+.publi04 h3 { }
+.publi04 p { color:#fff; }
+.publi04 span { color:#aaa; display:block; padding:20px 0; }
+.publi04 a { color:#fff; }
+
+/*05 한국조리사협회 울산지회*/
+.publi05 { background:#002546; }
+.publi05 h3 { }
+.publi05 p { color:#fff; }
+.publi05 span { color:#aaa; display:block; padding:20px 0; }
+.publi05 a { color:#fff; }
+
+/*06 아이원에듀*/
+.publi06 { background:#352846; }
+.publi06 h3 { }
+.publi06 p { color:#fff; }
+.publi06 span { color:#aaa; display:block; padding:20px 0; }
+.publi06 a { color:#fff; }
